@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>index</title>
+<link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<style type="text/css">
+@font-face {
+    font-family: 'ChosunCentennial';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/ChosunCentennial.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+	font-family: 'ChosunCentennial';
+}
+h2 {
+	text-align: center;
+}
+img {
+	text-align: center;
+}
+
+#panel1{
+	text-align: center;
+}
+.bu{
+	text-align: center;
+	width: 75%;
+}
+.b{
+	text-align: center;
+	width:60%;
+	font-size: 10px;
+}
+
+</style>
+</head>
+<body>
+<div data-role="header" data-theme="a" data-position="fixed">
+   <a href="index.html" data-transition="slide" data-direction="reverse"><img src="images/free-icon-font-angle-left-3916962.png" width="14px"></a>
+   <h1>리뷰</h1>
+  </div>
+  <form>
+  <div data-role="content">
+   <div class="mb-3">
+ <label for="formSub">제목</label>
+ <input type="text" id="formSub" placeholder="제목을 입력하세요.">
+</div>
+<div class="mb-3">
+ <label for="formTextarea">내용</label>
+ <textarea id="formTextarea" placeholder="내용을 입력하세요."></textarea>
+</div>
+  </div>
+  </form>
+<button type="button" class="btn btn-primary">작성하기</button>
+</body>
+</html>

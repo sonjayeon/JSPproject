@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>index</title>
+<link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<style type="text/css">
+@font-face {
+    font-family: 'ChosunCentennial';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/ChosunCentennial.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+	font-family: 'ChosunCentennial';
+}
+h2 {
+	text-align: center;
+}
+img {
+	text-align: center;
+}
+
+#panel1{
+	text-align: center;
+}
+.bu{
+	text-align: center;
+	width: 75%;
+}
+.b{
+	text-align: center;
+	width:60%;
+	font-size: 10px;
+}
+</style>
+</head>
+<body> 
+ <div data-role="page" id="home" data-theme="a">
+  <div data-role="panel" id="panel1" data-display="overlay" data-theme="a">
+  <h2>메뉴</h2>
+  <hr>
+  <form>
+   <div class="ui-grid-a">
+    <div class="ui-block-a">
+	<a href="login.jsp" data-role="button" data-inline="true" class="b">로그인</a>
+     </div>
+    <div class="ui-block-b">
+    <a href="signup.jsp" data-role="button" data-inline="true" class="b">회원가입</a>
+    </div>
+   </div>
+  </form>
+ </div>
+ <div data-role="header" data-theme="a">
+ <a href="#panel1" data-role="button" data-inline="true">login</a>
+  <h1>안녕하세요 카페입니다.</h1>
+   </div>
+  <div data-role="content">
+   <h2>New menu</h2>
+   <table>
+   <tr align="center">
+   <td><a class="bu" href="new.html" data-role="button"><img src="images/자바 칩 프라푸치노.jpg" width="100%"></a></td>
+   <td><a class="bu" href="new.html" data-role="button"><img src="images/클래식 아포가토.jpg" width="100%"></a></td>
+   <td><a class="bu" href="new.html" data-role="button"><img src="images/화이트 초콜릿 모카.jpg" width="100%"></a></td>
+   <td><a class="bu" href="new.html" data-role="button"><img src="images/피치레몬블렌디드.jpg" width="100%"></a></td>
+   </tr>
+   <tr align="center">
+   <td>자바 칩 프라푸치노</td>
+   <td>클래식 아포가토</td>
+   <td>화이트 초콜릿 모카</td>
+   <td>피치 레몬 블렌디드</td>
+   </tr>
+   </table>
+   <br>
+  <h2>Notice</h2>
+     <a href="notice.html" data-role="button"><img src="images/매거진.png" width="30%"></a><br>
+  <h2>Review</h2>
+     <a href="review.html" data-role="button"><img src="images/스벅.jpg" width="30%"></a>
+  </div>
+  <div data-role="footer" data-position="fixed">
+  <div data-role="navbar">
+  <ul>
+  <li><a href="menu.html" data-transition="slide"><img src="images/free-icon-font-coffee-5070427.png" width="25px"></a></li>
+  <li><a href="dessert.html" data-transition="slide"><img src="images/free-icon-font-cupcake-5070412.png" width="25px"></a></li>
+  <li><a href="map.html" data-transition="slide"><img src="images/free-icon-font-marker-3916882.png" width="25px"></a></li>
+  </ul>
+  </div>
+  </div>
+ </div>
+</body>
+</html>
